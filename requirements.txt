@@ -7,5 +7,8 @@ langchain-huggingface
 langchain-qdrant
 langchain-ollama
 unstructured[pdf]
-onnx==1.16.1
+#onnx==1.16.1
 qdrant-client
+onnxruntime
+# If you need ONNX for model validation: add onnx, but build may break
+pybind11
